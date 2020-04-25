@@ -1,3 +1,4 @@
+
 {
   "development": {
     "username": "root",
@@ -5,7 +6,7 @@
     "database": "first_express_app_development",
     "host": "localhost",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": "0"
   },
   "test": {
     "username": "root",
