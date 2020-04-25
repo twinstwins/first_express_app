@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express',text: "text" });
 });
 
+router.get('/tasks', controllers.getAllTasks);
 router.post('/tasks', controllers.createTask);
 
 module.exports = router;
