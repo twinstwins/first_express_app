@@ -9,5 +9,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/tasks', controllers.getAllTasks);
 router.post('/tasks', controllers.createTask);
+router.get('/tasks/:taskId', controllers.getTaskById);
 
 module.exports = router;
